@@ -1,5 +1,9 @@
 # 트러플 확장 프레임워크를 위한 커맨드 라인 인터페이스
 
+<img alt="br2k-app with br2k" src="./assets/main.png"  align="center"/>
+
+
+
 ## modify()
 -[2020.12.03] change k8s client: kubernetes-client(3rd party module) => @kubernetes/client-node(officially library)
 - spary add localDB yaml ->> yaml file Hash store --> Service Registry+ context.json
@@ -120,21 +124,8 @@ br2k init할 때 사용되는 리소스들(init할 프로젝트에 파일 및 �
 
 
 <br/>
-## 명령어(구현 측면에서)
-
-#### ``init``
-
-기본 트러플 프레임워크 프로젝트에서 br2k CLI을 사용하기 위한 폴더, 파일 생성
-
-##### 동작 과정 
-1. .br2k.json(br2k을 사용하기 위한 프로젝트에 대한 메타정보) 생성 여부 확인 후, 이미 존재하면 커맨드 *종료* 아니라면 파일 생성
-2. truffle 설치 여부 확인 및 안되면 설치
-3. 현재 위치에 truffle init(기본 프레임워크 구성)
-4. npm init (+express)
-5. br2k 관련된 파일, 폴더 추가 (./server,  ./util/registry, ./util/k8s, ./util/docker, ./specific-document-example)
 
 
-#### ``ask-context``
 
-Ask context for context-assign-server(k8s-managers)
+
 
