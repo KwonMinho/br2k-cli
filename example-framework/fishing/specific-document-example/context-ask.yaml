@@ -1,0 +1,6 @@
+name: 'fishing'
+replicas: 5
+isMax: true
+ports:
+- 7777
+isReplace: true

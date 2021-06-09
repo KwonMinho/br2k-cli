@@ -1,0 +1,8 @@
+name: 'bank'
+replicas: 3
+isMax: true
+ports:
+- 3000
+- 4000
+- 5000
+isReplace: true

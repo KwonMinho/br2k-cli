@@ -1,0 +1,11 @@
+Service:
+  id: 'supermarket'
+  service-account: '0x2ff21a68a27137fa13a20e72066e9a2c8fe339bd'
+  company-name: 'superman'
+  company-email: 'admin458@gmail.com'
+  company-contact: '010-7777-8361'
+  description: 'superman, Hello!'
+  image: '192.168.0.111/k8s/supermarket'
+  image-access-user: pslab
+
+

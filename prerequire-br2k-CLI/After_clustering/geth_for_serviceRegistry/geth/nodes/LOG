@@ -1,0 +1,39 @@
+=============== Jul 16, 2020 (KST) ===============
+02:15:06.842062 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:15:06.848948 db@open opening
+02:15:06.849598 version@stat F·[] S·0B[] Sc·[]
+02:15:06.853192 db@janitor F·2 G·0
+02:15:06.853201 db@open done T·4.244336ms
+=============== Jul 22, 2020 (KST) ===============
+14:47:10.539250 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:47:10.539729 version@stat F·[] S·0B[] Sc·[]
+14:47:10.539743 db@open opening
+14:47:10.540109 journal@recovery F·1
+14:47:10.540479 journal@recovery recovering @1
+14:47:10.544533 memdb@flush created L0@2 N·2 S·176B "loc..seq,v2":"version,v1"
+14:47:10.544941 version@stat F·[1] S·176B[176B] Sc·[0.25]
+14:47:10.555979 db@janitor F·3 G·0
+14:47:10.556001 db@open done T·16.253864ms
+=============== Aug 21, 2020 (KST) ===============
+13:17:54.874105 db@close closing
+13:17:54.874271 db@close done T·161.761µs
+=============== Dec 7, 2020 (KST) ===============
+10:37:50.807937 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:37:50.812960 version@stat F·[1] S·176B[176B] Sc·[0.25]
+10:37:50.812975 db@open opening
+10:37:50.813010 journal@recovery F·1
+10:37:50.813394 journal@recovery recovering @3
+10:37:50.818385 memdb@flush created L0@5 N·1 S·159B "loc..seq,v4":"loc..seq,v4"
+10:37:50.818878 version@stat F·[2] S·335B[335B] Sc·[0.50]
+10:37:50.838118 db@janitor F·4 G·0
+10:37:50.838136 db@open done T·25.156891ms
+=============== Dec 23, 2020 (KST) ===============
+21:56:48.505788 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:56:48.507141 version@stat F·[2] S·335B[335B] Sc·[0.50]
+21:56:48.507153 db@open opening
+21:56:48.507178 journal@recovery F·1
+21:56:48.507764 journal@recovery recovering @6
+21:56:48.512479 memdb@flush created L0@8 N·1 S·159B "loc..seq,v6":"loc..seq,v6"
+21:56:48.512945 version@stat F·[3] S·494B[494B] Sc·[0.75]
+21:56:48.538717 db@janitor F·5 G·0
+21:56:48.538868 db@open done T·31.711602ms

@@ -1,0 +1,4 @@
+helm install --name harbor-postql  --set service.type=LoadBalancer --set postgresql.replicaCount=3 --set persistence.storageClass=managed-nfs-storage bitnami/postgresql-ha --version 2.3.1
+
+helm del $(helm ls --all --short) --purge
+

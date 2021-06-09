@@ -1,0 +1,13 @@
+NOTES:
+Redis can be accessed via port 6379 and Sentinel can be accessed via port 26379 on the following DNS name from within your cluster:
+brown-alpaca-redis-ha.default.svc.cluster.local
+
+To connect to your Redis server:
+1. Run a Redis pod that you can use as a client:
+
+   kubectl exec -it brown-alpaca-redis-ha-server-0 sh -n default
+
+2. Connect using the Redis CLI:
+
+  redis-cli -h brown-alpaca-redis-ha.default.svc.cluster.local
+

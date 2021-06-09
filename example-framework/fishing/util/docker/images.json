@@ -1,0 +1,8 @@
+{
+  "192.168.0.111/k8s/fishing2": {
+    "id": "3e46bedbe101",
+    "createTime": "2020-12-08 15:50:32",
+    "storedLocation": "harbor-k8s (192.168.0.111)",
+    "pushTime": "2020-12-08 15:50:41"
+  }
+}

@@ -1,0 +1,1 @@
+helm install --name harbor-redis --set haproxy.enabled=true --set haproxy.service.type=LoadBalancer --set haproxy.service.loadBalancerIP=192.168.0.121 --set persistentVolume.storageClass=managed-nfs-storage --set persistentVolume.size=2Gi  stable/redis-ha

@@ -1,0 +1,22 @@
+NOTES:
+OpenLDAP has been installed. You can access the server from within the k8s cluster using:
+
+  geared-peahen-openldap.ldap.svc.cluster.local:389
+
+
+You can access the LDAP adminPassword and configPassword using:
+
+  kubectl get secret --namespace ldap geared-peahen-openldap -o jsonpath="{.data.LDAP_ADMIN_PASSWORD}" | base64 --decode; echo
+  kubectl get secret --namespace ldap geared-peahen-openldap -o jsonpath="{.data.LDAP_CONFIG_PASSWORD}" | base64 --decode; echo
+
+
+You can access the LDAP service, from within the cluster (or with kubectl port-forward) with a command like (replace password and domain):
+  ldapsearch -x -H ldap://geared-peahen-openldap.ldap.svc.cluster.local:389 -b dc=example,dc=org -D "cn=admin,dc=example,dc=org" -w $LDAP_ADMIN_PASSWORD
+
+
+Test server health using Helm test:
+  helm test geared-peahen
+
+
+You can also consider installing the helm chart for phpldapadmin to manage this instance of OpenLDAP, or install Apache Directory Studio, and connect using kubectl port-forward.
+

@@ -1,0 +1,4 @@
+helm del $(helm ls --all --short) --purge
+helm install -f value.yaml  --name podsname helmRepo/name
+helm list
+

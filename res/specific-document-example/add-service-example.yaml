@@ -1,0 +1,12 @@
+name: ldap
+image: alsgh458/openldap:0.1.1
+ports:
+  - containerPort: 387
+    name: openldap
+env:
+  - name: LDAP_DOMAIN
+    value: "verifier.com"
+  - name: LDAP_TLS
+    value: false
+  - name: LDAP_ADMIN_PASSWORD
+    value: "pslab"

@@ -1,0 +1,50 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+#[context-cfg]-> endpointSelectorID: CURRENT_INDEX(String) 
+  name: #[command]-> servicename
+spec:
+  containers:
+  - name: etcd
+    image: quay.io/coreos/etcd:v3.2.3
+    ports:
+    - name: client
+      containerPort: 2379
+      protocol: TCP
+    - name: server
+      containerPort: 2380
+      protocol: TCP
+#    volumeMounts:
+#    - name: etcd-repo
+#      mountPath: /var/run/etcd
+    command:
+      - /usr/local/bin/etcd
+      - --name
+      - # `etcd`+CURRENT_INDEX
+      - --initial-advertise-peer-urls
+      - # `http://`+urls[scvIndex]+`:2380`
+      - --listen-peer-urls
+      - http://0.0.0.0:2380
+      - --listen-client-urls
+      - http://0.0.0.0:2379
+      - --advertise-client-urls
+      - # `http://`+urls[scvIndex]+`:2379`
+      - --initial-cluster
+      - #  `etcd`+scvIndex+`=http://`+urls[scvIndex]+`:2380,` *repeat  etcd0=http://192.168.0.100:2380,etcd1=http://192.168.0.101:2380,etcd2=http://192.168.0.102:2380
+      - --initial-cluster-state
+      - new
+  - name: service
+    image: #[command]-> image
+    ports:
+    - name: #[command] -> servicename
+      containerPort: #[context-cfg] -> endpoint-port
+#    volumeMounts:
+#    - name: scv-repo
+#      mountPath: /etc #[context-cfg] -> service-mountPath
+  nodeSelector:
+    # [context cfg KEY] -> label-CURRENT_INDEX(String)
+#[option: etcd]    spec.volumes[0].hostPath.path
+#[option: service] spec.volumes[1].hostPath.path
+#[option]          spec.imagePullSecrets[0].name: [command option] -> secret
+

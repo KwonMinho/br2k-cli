@@ -1,0 +1,38 @@
+{
+  "name": "br2k-truffle",
+  "version": "1.0.6",
+  "description": "",
+  "main": "./lib/app.js",
+  "bin": {
+    "br2k": "bin/br2k.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kownminho <alsgh458@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.13.0",
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "console-table-printer": "^1.6.3",
+    "etcd3": "^1.1.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.0",
+    "js-base64": "^2.6.2",
+    "jwt-decode": "^2.2.0",
+    "kubernetes-client": "^7.0.1",
+    "object-hash": "^2.0.3",
+    "open": "^7.0.4",
+    "ora": "^4.0.4",
+    "progress": "^2.0.3",
+    "random-word": "^2.0.0",
+    "shelljs": "^0.8.4",
+    "sleep": "^6.3.0",
+    "valid-url": "^1.0.9",
+    "web3": "^1.2.9",
+    "yaml": "^1.10.0"
+  }
+}

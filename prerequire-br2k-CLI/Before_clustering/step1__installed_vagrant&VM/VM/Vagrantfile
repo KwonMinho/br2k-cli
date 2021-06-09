@@ -1,0 +1,139 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# passwd --> vagrant -> pslab0000
+servers = [
+    {
+        :name => "node-1",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.12",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-2",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.13",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-3",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.14",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-4",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.15",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-5",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.16",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-6",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.17",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-7",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.18",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-8",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.19",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-9",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.20",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-10",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.21",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-11",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.22",
+        :mem => "8048",
+        :cpu => "4"
+    },
+    {
+        :name => "node-12",
+        :type => "node",
+        :box => "ubuntu/bionic64",
+        :box_version => "20191118.0.0",
+        :eth1 => "192.168.0.23",
+        :mem => "8048",
+        :cpu => "4"
+    },
+]
+
+
+Vagrant.configure("2") do |config|
+
+    servers.each do |opts|
+        config.vm.define opts[:name] do |config|
+
+            config.vm.box = opts[:box]
+            config.vm.box_version = opts[:box_version]
+            config.vm.hostname = opts[:name]
+            config.vm.network :public_network, bridge: "wlp4s0" ,auto_config: true,  ip: opts[:eth1]
+	    config.vm.synced_folder "~/VM/share", "/home/vagrant/share"
+
+            config.vm.provider "virtualbox" do |v|
+                v.name = opts[:name]
+                v.customize ["modifyvm", :id, "--groups", "/Kube"]
+                v.customize ["modifyvm", :id, "--memory", opts[:mem]]
+                v.customize ["modifyvm", :id, "--cpus", opts[:cpu]]
+
+            end
+	end
+    end
+end 
+
+

@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/share":{"guestpath":"/home/vagrant/share","hostpath":"/home/pslab-k8s/VM/share","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/pslab-k8s/VM","disabled":false,"__vagrantfile":true}}}

@@ -1,0 +1,6 @@
+name: 'supermarket'
+replicas: 7
+isMax: true
+ports:
+- 9999
+isReplace: true

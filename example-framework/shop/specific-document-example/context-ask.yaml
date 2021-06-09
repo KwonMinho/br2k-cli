@@ -1,0 +1,6 @@
+name: 'shop'
+replicas: 3
+isMax: true
+ports:
+- 8888
+isReplace: true

@@ -1,0 +1,20 @@
+
+ 1782  br2k ask-context -f specific-document-example/context-ask.yaml -r http://127.0.0.1:9000/context
+ 1783  cat context.yaml 
+ 1784  br2k set-context -f context.yaml 
+ 1785  br2k add-image-registry -f specific-document-example/registry-auth.yaml 
+ 1786  br2k add-service-registry -f specific-document-example/service-registry-auth.yaml 
+ 1787  br2k register -f specific-document-example/service-info.yaml -p 1234
+ 1788  br2k build -h
+ 1789  br2k build -n supermarket
+ 1790  br2k list
+ 1791  br2k push -i supermarket -p k8s
+ 1792  br2k list
+ 1793  br2k view-service
+ 1794  br2k set-secret -h
+ 1795  br2k set-secret -p pslab -n super-secret
+ 1796  br2k list
+ 1797  br2k spary -i 192.168.0.111/k8s/supermarket -r 7 -s super-secret -n supermarketapp
+ 1798  br2k spray -i 192.168.0.111/k8s/supermarket -r 7 -s super-secret -n supermarketapp
+ 1799  br2k state
+ 1800  br2k view-service

@@ -1,0 +1,1000 @@
+  524  node main.js 
+  525  cat ~/.kube/config 
+  526  node main.js 
+  527  cat ~/.kube/config 
+  528  node main.js 
+  529  cat ~/.kube/config 
+  530  node main.js 
+  531  rm -rf node_modules/
+  532  code .
+  533  cd ..
+  534  ls
+  535  cd Kube-Replica_Research/
+  536  ls
+  537  cd context-issuer-server/
+  538  ls
+  539  code .
+  540  nano br2k-CLI/README.md 
+  541  cd ..
+  542  cd ku
+  543  cd KU
+  544  cd Kube-Replica_Research/
+  545  git add .
+  546  git commit -m 'update CLI/README.md'
+  547  git push origin master 
+  548  git config user.name minho
+  549  git config user.password rhrnfu123
+  550  git push origin master 
+  551  git config --global credential.helper 'cache --timeout 7200'
+  552  git push origin master 
+  553  git 
+  554  gic pull
+  555  git pull origin master 
+  556  clear
+  557  ls
+  558  cat README.md 
+  559  git config --global credential.helper 'cache --timeout 7200'
+  560  ls
+  561  kubectl apply -f assign-service\(external_ip\)_to_user.yaml 
+  562  kubectl get service
+  563  kubectl delete service
+  564  kubectl -f delete assign-service\(external_ip\)_to_user.yaml 
+  565  kubectl delete -f assign-service\(external_ip\)_to_user.yaml 
+  566  kubectl apply -f assign-service\(external_ip\)_to_user.yaml 
+  567  kubectl get services
+  568  kubectl delete -f assign-service\(external_ip\)_to_user.yaml 
+  569  npm i kubernetes-client
+  570  rm -rf node_modules/
+  571  npm i kubernetes-client
+  572  node main.js 
+  573  rm -rf node_modules/
+  574  npm install @kubernetes/client-node
+  575  node main.js 
+  576  cat package.json 
+  577  git add .
+  578  git commit -m 'update context-issuer-server'
+  579  git push origin master 
+  580  cd ..
+  581  ls
+  582  cd br2k-
+  583  cd br2k-CLI/
+  584  code .
+  585  npm i @kubernetes/client-node
+  586  cd ..
+  587  git add .
+  588  git commit -m 'update CLI/READMD'
+  589  git push origin master 
+  590  clear
+  591  ls
+  592  cd context-issuer-server/
+  593  ls
+  594  node main.js 
+  595  npm install @kubernetes/client-node
+  596  node main.js 
+  597  clear
+  598  node main.js 
+  599  node main.js > m
+  600  node main.js 
+  601  node main.js > m
+  602  node main.js 
+  603  clear
+  604  node main.js 
+  605  kubectl get namespace
+  606  node main.js 
+  607  kubectl get service
+  608  kubectl get service-acccoount
+  609  kubectl get service-accoount
+  610  kubectl get service-account
+  611  kubectl get service account
+  612  kubectl get secret
+  613  kubectl get secret -n bankapp
+  614  kubectl get 
+  615  kubectl get -h
+  616  kubectl delete -n bankapp serviceaccount 
+  617  kubectl delete -n bankapp serviceaccount bankapp3
+  618  node main.js 
+  619  kubectl get -n bankapp 
+  620  kubectl get -n bankapp secret
+  621  kubectl get -n bankapp serviceaccount
+  622  node main.js 
+  623  kubectl describe -n bankapp serviceaccount
+  624  kubectl describe -n bankapp serviceaccount bankapp-account
+  625  kubectl describe -n bankapp secrete bankapp-account-token-s88s5
+  626  kubectl describe -n bankapp secret bankapp-account-token-s88s5
+  627  kubectl get service
+  628  kubectl get service --all-namespace
+  629  node main.js 
+  630  clear
+  631  node main.js 
+  632  clear
+  633  node main.js 
+  634  kubectl describe node
+  635  clear
+  636  kubectl get namespace
+  637  kubectl delete namespace
+  638  kubectl delete namespace bankapp
+  639  node main.js 
+  640  clear
+  641  node main.js 
+  642  code .
+  643  ls
+  644  cat README.md 
+  645  npm link
+  646  sudo npm link
+  647  code .
+  648  br2k init
+  649  truffle build
+  650  truffle migrate
+  651  ls
+  652  code .
+  653  node main.js 
+  654  clear
+  655  node main.js 
+  656  node main.js  >> me
+  657  node main.js 
+  658  npm i js-base64
+  659  node main.js 
+  660  cd ..
+  661  ls
+  662  mkdir br2k-test-1
+  663  cd br2k-test-1/
+  664  kurffle init
+  665  br2k init
+  666  ls
+  667  nano context-ask.yaml
+  668  br2k set-context
+  669  br2k ask-context
+  670  br2k -h
+  671  br2k ask-context
+  672  br2k ask
+  673  br2k ask-context
+  674  ls
+  675  br2k ask-context -f context-ask.yaml -r http://203.250.77.150:9000/context
+  676  br2k ask-context -f context-ask.yaml -s http://203.250.77.150:9000/context
+  677  br2k ask-context -f context-ask.yaml -r http://203.250.77.150:9000/context
+  678  br2k ask-context -f context-ask.yaml -r http://203.250.77.152:9000/context
+  679  ls
+  680  nano context-ask.yaml 
+  681  clear
+  682  br2k ask-context -f context-ask.yaml -r http://203.250.77.152:9000/context
+  683  clear
+  684  br2k ask-context -f context-ask.yaml -r http://203.250.77.152:9000/context
+  685  ls
+  686  cat context.yaml 
+  687  br2k ask-context -f context-ask.yaml -r http://203.250.77.152:9000/context
+  688  ls
+  689  br2k set-context
+  690  br2k set-context -f ./context.yaml
+  691  ls
+  692  nano context.yaml 
+  693  br2k ask-context -f context-ask.yaml -r http://203.250.77.152:9000/context
+  694  cat context.yaml 
+  695  ls
+  696  br2k set-context -f context.yaml 
+  697  br2k ask-context -f context-ask.yaml -r http://203.250.77.152:9000/context
+  698  ls
+  699  cat context.yaml 
+  700  br2k set-context -f context.yaml 
+  701  br2k ask-context -f context-ask.yaml -r http://203.250.77.152:9000/context
+  702  cat context.yaml 
+  703  br2k ask-context -f context-ask.yaml -r http://203.250.77.152:9000/context
+  704  cat context.yaml 
+  705  br2k ask-context -f context-ask.yaml -r http://203.250.77.152:9000/context
+  706  cat context.yaml 
+  707  br2k ask-context -f context-ask.yaml -r http://203.250.77.152:9000/context
+  708  cat context.y
+  709  br2k set-context -f context.yaml 
+  710  br2k -h
+  711  br2k list
+  712  br2k list-context
+  713  ls
+  714  cat specific-document-example/
+  715  cd specific-document-example/
+  716  ls
+  717  cat registry-auth.yaml 
+  718  ls
+  719  cat registry-auth.yaml 
+  720  curl https://192.168.0.111:80
+  721  curl --insecure https://192.168.0.111:80
+  722  docker images
+  723  npm i axios
+  724  ls
+  725  nano README.md 
+  726  cd ..
+  727  git add .
+  728  git commit -m 'update some..'
+  729  git push  origin master 
+  730  curl -curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data
+  731  curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data
+  732  curl -curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data
+  733  curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:9292/context
+  734  curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  735  curl -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  736  curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:9000/
+  737  curl -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  738  curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:9000/
+  739  curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  740  curl -d '{"contextRequest":{"replicas":1,"isMax":true,"ports": [3000,4000,5000], "isReplace": true}, \"key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  741  curl -d '{"contextRequest":{"replicas":1,"isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  742  curl -d '{"contextAsk":{"replicas":1,"isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  743  curl -d '{"contextAsk":{"replicas":1,"isMax":true,"ports": [3000,4000,5000], "isReplace": true, "name": "bankapp"}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  744  curl -d '{"contextAsk":{"replicas":1,"isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  745  curl -d '{"contextAsk":{"replicas":1,3, isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  746  curl -d '{"contextAsk":{"name":"bank",replicas":3, isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  747  curl -d '{"contextAsk":{"name":"bank","replicas":3, "isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  748  curl -d '{"contextAsk":{"name":"bank",app"replicas":3, "isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  749  curl -d '{"contextAsk":{"name":"bankapp"replicas":3, "isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  750  curl -d '{"contextAsk":{"name":"bankapp",replicas":3, "isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  751  curl -d '{"contextAsk":{"name":"bankapp", replicas":3, "isMax":true, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  752  curl -d '{"contextAsk":{"name":"bankapp", "replicas":3, "isMax":true, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  753  curl -d '{"contextAsk":{"name":"bankapp", "replicas":14, "isMax":true, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  754  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":true, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  755  url -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":true, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Typfalsepplication/json" -X POST http://localhost:9000/context
+  756  url -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Typfalsepplication/json" -X POST http://localhost:9000/context
+  757  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Typfalsepplication/json" -X POST http://localhost:9000/context
+  758  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isRepl ace": true}, "key2":"value2"}'  -H "Content-Typfalsepplication/json" -X POST http://localhost:9000/context
+  759  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  760  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Co5ent-Type: truecation/json" -X POST http://localhost:9000/context
+  761  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Co5ent-Type: truPOST http://localhost:9000/context
+  762  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Co5ent-Type: truecation/json" -X POST http://localhost:9000/context
+  763  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Co5ent-Type: truPOST http://localhost:9000/context
+  764  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isReplace": true}}'  -H "Co5ent-Type: truPOST http://localhost:9000/context
+  765  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Co5ent-Type: truecation/json" -X POST http://localhost:9000/context
+  766  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: truecation/json" -X POST http://localhost:9000/context
+  767  curl -d '{"contextAsk":{"name":"bankapp", "replicas":16, "isMax":false, "ports": [3000,4000,5003], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: truecation/json" -X POST http://localhost:9000/context
+  768  history
+  769  curl -d '{"contextAsk":{"name":"bankapp",replicas":3, "isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  770  curl -d '{"contextAsk":{"name":"bankapp","replicas":3, "isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"value2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  771  curl -d '{"contextAsk":{"name":"bank","replicas":3, "isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":[Alue2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  772  curl -d '{"contextAsk":{"name":"bank","replicas":3, "isMax":true,"ports": [3000,4000,5000], "isReplace": true}, "key2":"Alue2"}'  -H "Content-Type: application/json" -X POST http://localhost:9000/context
+  773  sudo apt update
+  774  sudo apt upgrade
+  775  sudo apt install docker.io
+  776  sudo systemctl enable --now docker
+  777  sudo systemctl disable --now docker
+  778  sudo usermode -aG docker pslabmh
+  779  sudo usermod -aG docker pslabmh
+  780  docker
+  781  docker list
+  782  docker ps
+  783  kubectl get service
+  784  kubectl get service -n bankapp
+  785  kubectl delete service bankapp -n bankapp
+  786  kubectl get service -n bankapp
+  787  kubectl delete service -n bankapp 
+  788  kubectl get service -n bankapp bankappendpoint2 bankappendpoint1 bankappendpoint0
+  789  kubectl delete service -n bankapp bankappendpoint2 bankappendpoint1 bankappendpoint0
+  790  kubectl get service -n bankapp 
+  791  kubectl delete service -n bankapp bankappendpoint2 bankappendpoint1 bankappendpoint0
+  792  kubectl get service -n bankapp 
+  793  kubectl describe service -n bankapp 
+  794  kubectl delete service -n bankapp bankapp-endpoint3 bankapp-endpoint2 bankapp-endpoint1
+  795  cat .kube/config 
+  796  kubectl get namespace
+  797  kubectl get -n bank all
+  798  kubectl get -n bank serviceaccount
+  799  kubectl delete -n bank
+  800  kubectl delete namespace bank
+  801  kubectl get namespace
+  802  kubectl get serviceaccount --all-namespace
+  803  kubectl get serviceaccount --all-namespaces
+  804  kubectl delete namespace bank-space
+  805  kubectl delete clusterrolebindings bank-binding
+  806  kubectl get namespace
+  807  kubectl delete bank
+  808  kubectl delete namespace bank
+  809  kubectl delete clusterrolebindings bank-binding-3
+  810  kubectl delete namespace bank
+  811  kubectl get namespac
+  812  kubectl get namespace
+  813  kubectl get -n bank servcieaccount
+  814  kubectl get -n bank serviceaccount
+  815  kubectl delete namespace bank
+  816  kubectl delete clusterrolebindings bank-binding-3
+  817  kubectl delete namespace bank
+  818  kubectl delete clusterrolebindings bank-binding-3
+  819  kubectl delete namespace bank
+  820  kubectl delete clusterrolebindings bank-binding-3
+  821  cd VM
+  822  ls
+  823  cd research-br2k-CLI-test/
+  824  ls
+  825  cd ..
+  826  ls
+  827  kubectl delete namespace bank
+  828  kubectl delete clusterrolebindings bank-binding-3
+  829  kubectl delete namespace bank
+  830  kubectl delete clusterrolebindings bank-binding-3
+  831  ls
+  832  cd Kube-Replica_Research/
+  833  git add .
+  834  git commit -m 'update context-assign-server'
+  835  git push origin master 
+  836  clear
+  837  ls
+  838  git pull origin master 
+  839  clear
+  840  ls
+  841  kubectl delete namespace bank
+  842  kubectl delete clusterrolebinddings bank-binding-3
+  843  kubectl delete clusterrolebindings bank-binding-3
+  844  kubectl delete namespace bank
+  845  kubectl delete clusterrolebindings bank-binding-3
+  846  kubectl delete namespace bank
+  847  kubectl delete namespace bankapp
+  848  kubectl delete clusterrolebindings bank-binding-3
+  849  kubectl delete namespace bankapp
+  850  kubectl delete namespace bank
+  851  kubectl delete clusterrolebindings bank-binding-3
+  852  kubectl delete namespace bank
+  853  kubectl delete clusterrolebindings bank-binding-3
+  854  kubectl delete namespace bank
+  855  kubectl delete clusterrolebindings bank-binding-3
+  856  kubectl delete namespace bank
+  857  kubectl delete clusterrolebindings bank-binding-3
+  858  kubectl -n bank serviceaccount
+  859  kubectl -n bank get serviceaccount 
+  860  kubectl -n bank describe bank-account
+  861  kubectl -n bank describe serviceaccount bank-account
+  862  kubectl get bank-account-token-xhh8s
+  863  kubectl get secret bank-account-token-xhh8s
+  864  kubectl describe secret bank-account-token-xhh8s
+  865  kubectl -n bank describe secret bank-account-token-xhh8s
+  866  kubectl delete clusterrolebindings bank-binding-3
+  867  kubectl delete namespace bank
+  868  kubectl describe secret bank-account-token-xhh8s
+  869  kubectl describe secret -n bank bank-account-token-xhh8s
+  870  kubectl -n bank describe secret bank-account-token-xhh8s
+  871  kubectl -n bank describe secret
+  872  kubectl delete namespace bank
+  873  kubectl delete clusterrolebindings bank-binding-3
+  874  kubectl delete namespace bank
+  875  kubectl delete clusterrolebindings bank-binding-3
+  876  kubectl delete namespace bank
+  877  kubectl delete clusterrolebindings bank-binding-3
+  878  kubectl delete namespace bank
+  879  kubectl delete clusterrolebindings bank-binding-3
+  880  kubectl delete namespace bank
+  881  kubectl delete clusterrolebindings bank-binding-3
+  882  kubectl delete namespace bank
+  883  kubectl delete clusterrolebindings bank-binding-3
+  884  kubectl delete namespace bank
+  885  kubectl delete clusterrolebindings bank-binding-3
+  886  kubectl delete namespace bank
+  887  kubectl delete clusterrolebindings bank-binding-3
+  888  kubectl delete namespace bank
+  889  kubectl delete clusterrolebindings bank-binding-3
+  890  kubectl delete namespace bank
+  891  reboot
+  892  ls
+  893  cd ..
+  894  l.s
+  895  clear
+  896  ls
+  897  cd k8s-client-test/
+  898  ls
+  899  cd //
+  900  cd ..
+  901  cd 
+  902  cd ~
+  903  ls
+  904  clear
+  905  ls
+  906  cd br2k-test-1/
+  907  ls
+  908  br2k 
+  909  br2k list-context
+  910  br2k cur-context
+  911  ls
+  912  cat specific-document-example/
+  913  cat specific-document-example/service-registry-auth.yaml 
+  914  ifconfig
+  915  sudo apt install net-tools
+  916  cat specific-document-example/service-registry-auth.yaml 
+  917  ifocnfig
+  918  ifconfig
+  919  cat specific-document-example/service-registry-auth.yaml 
+  920  ls
+  921  nano specific-document-example/
+  922  nano specific-document-example/registry-auth.yaml 
+  923  cat specific-document-example/registry-auth.yaml 
+  924  nano specific-document-example/service-registry-auth.yaml 
+  925  kurffle
+  926  br2k
+  927  br2k add-image-reigstry -h
+  928  br2k add-image-reigstry
+  929  br2k add-image-registry 
+  930  br2k add-image-registry -h
+  931  br2k add-image-registry -f
+  932  br2k add-service-registry -h
+  933  ls
+  934  br2k -h
+  935  br2k list
+  936  br2k build
+  937  ls
+  938  docker list
+  939  docker images
+  940  ls
+  941  cd util/
+  942  ls
+  943  cd docker/
+  944  ls
+  945  br2k build -h 
+  946  br2k -h
+  947  br2k list
+  948  cd ..
+  949  br2k list
+  950  br2k -h
+  951  br2k push-h
+  952  br2k push -h
+  953  br2k list
+  954  br2k push -h
+  955  br2k push rase
+  956  br2k push -i rase
+  957  br2k push -i rase -p k8s
+  958  nano util/k8s/contexts.json 
+  959  br2k push -i rase -p k8s
+  960  ls
+  961  nano util/docker/registry.json 
+  962  br2k -h
+  963  ls
+  964  cd util/
+  965  ls
+  966  cd docker/
+  967  ls
+  968  rm registry.json 
+  969  ls
+  970  cd ..
+  971  sl
+  972  ls
+  973  cd .
+  974  cd ..
+  975  ls
+  976  cd specific-document-example/
+  977  ls
+  978  nano registry-auth.yaml 
+  979  cd //
+  980  cd ~/br2k-test-1/
+  981  ls
+  982  br2k -h
+  983  br2k add-image-registry -h specific-document-example/registry-auth.yaml 
+  984  br2k add-image-registry -f specific-document-example/registry-auth.yaml 
+  985  br2k cur-context
+  986  ls
+  987  clear
+  988  ls
+  989  cd util/
+  990  ls
+  991  cd k8s/
+  992  ls
+  993  nano contexts.json 
+  994  cd ..
+  995  br2k push -i rase -p k8s
+  996  br2k list
+  997  ls
+  998  cd util/
+  999  ls
+ 1000  cd docker/
+ 1001  ls
+ 1002  cat images.json 
+ 1003  ls
+ 1004  cd ...
+ 1005  ls
+ 1006  cd ..
+ 1007  ls
+ 1008  cd k8s/
+ 1009  ls
+ 1010  nano contexts.json 
+ 1011  cd..
+ 1012  cd ..
+ 1013  br2k push -
+ 1014  br2k push -i rase -p k8s
+ 1015  br2k registry -h
+ 1016  br2k push -i rase -p k8s
+ 1017  docker ps
+ 1018  docker images
+ 1019  br2k -h
+ 1020  br2k login-reigstry
+ 1021  br2k login-registry
+ 1022  ls
+ 1023  cat util/k8s/contexts.json 
+ 1024  br2k cur-context
+ 1025  br2k login-registry
+ 1026  nano util/k8s/contexts.json 
+ 1027  br2k login-registry -p pslab
+ 1028  nano util/k8s/contexts.json 
+ 1029  br2k login-registry -p pslab
+ 1030  br2k login-registry -c
+ 1031  br2k cur-context
+ 1032  nano util/k8s/contexts.json 
+ 1033  kurffle -h
+ 1034  br2k -h
+ 1035  br2k cur-context -h
+ 1036  br2k cur-context -r
+ 1037  br2k cur-context -h
+ 1038  br2k cur-context -s
+ 1039  ls
+ 1040  nano util/k8s/contexts.json 
+ 1041  br2k cur-context -s
+ 1042  br2k -h
+ 1043  br2k logout-registry
+ 1044  br2k logout-registry -h
+ 1045  br2k logout-registry
+ 1046  br2k login-registry -p pslab
+ 1047  nano util/k8s/contexts.json 
+ 1048  br2k login-registry -p pslab
+ 1049  br2k logout-registry
+ 1050  docker logout
+ 1051  br2k login-registry -p pslab
+ 1052  git add .
+ 1053  history
+ 1054  br2k push -i rase -p k8s
+ 1055  docker -h
+ 1056  docker images
+ 1057  ls
+ 1058  nano util/k8s/contexts.json 
+ 1059  br2k push -i rase -p k8s
+ 1060  kurffle list
+ 1061  br2k list
+ 1062  nano util/k8s/contexts.json 
+ 1063  br2k login-registry -c
+ 1064  br2k cur-context
+ 1065  br2k list
+ 1066  cd util/
+ 1067  ls
+ 1068  nano docker/
+ 1069  cd docker/
+ 1070  ls
+ 1071  nano images.json 
+ 1072  ls
+ 1073  cd ..
+ 1074  kurffle list
+ 1075  br2k lsit
+ 1076  br2k list
+ 1077  br2k -h 
+ 1078  br2k list
+ 1079  br2k -h
+ 1080  br2k set-secret -h
+ 1081  br2k set-secret -p admin
+ 1082  cat context.yaml 
+ 1083  ls
+ 1084  nano util/k8s/contexts.json 
+ 1085  br2k 
+ 1086  br2k change-k8s-server
+ 1087  br2k change-k8s-server -i 0
+ 1088  br2k change-k8s-server -i 1
+ 1089  br2k change-k8s-server -i 2
+ 1090  br2k change-k8s-server -i 3
+ 1091  br2k change-k8s-server -i 5
+ 1092  br2k change-k8s-server -i 
+ 1093  br2k change-k8s-server -i 2
+ 1094  nano util/k8s/contexts.json 
+ 1095  br2k change-k8s-server -i 2
+ 1096  nano util/k8s/contexts.json 
+ 1097  br2k change-k8s-server -i 0
+ 1098  kurffle 
+ 1099  br2k
+ 1100  ls
+ 1101  cd util/
+ 1102  ls
+ 1103  cd ks
+ 1104  cd k8s/
+ 1105  ls
+ 1106  nano contexts.json 
+ 1107  cd ..
+ 1108  history 
+ 1109  br2k set-secret -p admin
+ 1110  ls
+ 1111  nano context.yaml 
+ 1112  br2k set-secret -p admin
+ 1113  ls
+ 1114  nano context.yaml 
+ 1115  ;s
+ 1116  ls
+ 1117  nano util/k8s/
+ 1118  nano util/k8s/contexts.json 
+ 1119  br2k set-secret -p admin
+ 1120  cat util/k8s/contexts.json 
+ 1121  br2k set-secret -p admin
+ 1122  br2k -h
+ 1123  br2k list
+ 1124  br2k cur-context -s
+ 1125  br2k cur-context 
+ 1126  ls
+ 1127  cd util/
+ 1128  ls
+ 1129  nano k8s/contexts.json 
+ 1130  cd ..
+ 1131  ls
+ 1132  rm -rf br2k-test-1/
+ 1133  mkdir br2k-test-1
+ 1134  cd br2k-test-1/
+ 1135  br2k init
+ 1136  ls
+ 1137  nano context-ask.yaml
+ 1138  kurffle -h
+ 1139  br2k -h
+ 1140  br2k ask-context -h
+ 1141  br2k ask-context -r http://localhost:9000 -f ./context-ask.yaml 
+ 1142  br2k ask-context -r http://localhost:9000/context -f ./context-ask.yaml 
+ 1143  ls
+ 1144  nano context.yaml 
+ 1145  rm -rf context.yaml 
+ 1146  nano context-ask.yaml 
+ 1147  br2k ask-context -r http://localhost:9000/context -f ./context-ask.yaml 
+ 1148  ls
+ 1149  cat context.yaml 
+ 1150  br2k set-context -f ./context.yaml 
+ 1151  cat util/k8s/contexts.json 
+ 1152  br2k cur-context
+ 1153  cat util/k8s/contexts.json 
+ 1154  br2k add-image-registry -f specific-document-example/registry-auth.yaml 
+ 1155  cat util/k8s/contexts.json 
+ 1156  br2k build -n minho-server
+ 1157  br2k list
+ 1158  br2k login-registry -p pslab
+ 1159  br2k list
+ 1160  br2k push -h
+ 1161  br2k push -i minho-server -p k8s
+ 1162  nano util/k8s/contexts.json 
+ 1163  br2k
+ 1164  br2k set-secret -h
+ 1165  cp util/k8s/contexts.json util/k8s/contexts2.json
+ 1166  ls
+ 1167  br2k set-secret -h
+ 1168  br2k set-secret -p pslab -n minho-secret
+ 1169  cat util/k8s/contexts.json 
+ 1170  br2k set-secret -p pslab -n minho-secret
+ 1171  nano util/k8s/contexts.json 
+ 1172  br2k set-secret -p pslab -n minho-secret
+ 1173  br2k set-secret -p pslab -n minho
+ 1174  br2k cur-context list
+ 1175  ls
+ 1176  cd specific-document-example/
+ 1177  ls
+ 1178  nano registry-auth.yaml 
+ 1179  cd ..
+ 1180  nano util/k8s/contexts.json 
+ 1181  br2k cur-context list
+ 1182  br2k cur-context list -s
+ 1183  br2k cur-context list -h
+ 1184  br2k cur-context list -r
+ 1185  br2k set-secret -h
+ 1186  br2k
+ 1187  br2k register -h
+ 1188  br2k register -f specific-document-example/service-info.yaml -p 1234
+ 1189  br2k 
+ 1190  br2k add-service-registry -f specific-document-example/service-registry-auth.yaml 
+ 1191  br2k register -f specific-document-example/service-info.yaml -p 1234
+ 1192  br2k 
+ 1193  br2k view-service
+ 1194  br2k 
+ 1195  br2k cur-context
+ 1196  br2k cur-context -h
+ 1197  br2k cur-context -r
+ 1198  br2k -h
+ 1199  br2k test -h
+ 1200  br2k list
+ 1201  ls
+ 1202  nano util/docker/images.json 
+ 1203  br2k list
+ 1204  br2k test -h
+ 1205  br2k 
+ 1206  kubectl get pods -n bank
+ 1207  br2k test -e
+ 1208  br2k cur-context
+ 1209  br2k cur-context -s
+ 1210  br2k test -h
+ 1211  br2k test -i minho-server -s minho
+ 1212  br2k get pods -n bank
+ 1213  kubect get pods -n bank
+ 1214  kubectl get pods -n bank
+ 1215  kubectl describe pods -n bank
+ 1216  br2k test -e
+ 1217  docker images
+ 1218  br2k list
+ 1219  ls
+ 1220  nano util/docker/images.json 
+ 1221  br2k list
+ 1222  br2k push -h
+ 1223  clear
+ 1224  br2k build
+ 1225  br2k list
+ 1226  br2k push -h
+ 1227  br2k push -i consolidated -p k8s
+ 1228  br2k list
+ 1229  br2k test -h
+ 1230  br2k test -i 192.168.0.111/k8s/minho-server -s minho
+ 1231  br2k test -e
+ 1232  br2k test -i 192.1
+ 1233  br2k test -e
+ 1234  br2k test -i 192.168.0.111/k8s/minho-server -s minho
+ 1235  br2k test -e 192.168.0.111/k8s/minho-server -s minho
+ 1236  br2k spary -f
+ 1237  br2k spary -h
+ 1238  history
+ 1239  br2k view-service
+ 1240  ls
+ 1241  br2k cur-context
+ 1242  br2k cur-context -s
+ 1243  br2k cur-context -h
+ 1244  br2k cur-context -s -r
+ 1245  br2k
+ 1246  br2k state
+ 1247  br2k stop
+ 1248  br2k spray -h
+ 1249  cd ..
+ 1250  ls
+ 1251  ls
+ 1252  docker ps
+ 1253  docker list
+ 1254  ls
+ 1255  cd Kube-Replica_Research/
+ 1256  ls
+ 1257  cd br2k-CLI
+ 1258  code .
+ 1259  kubectl describe pods -n bank
+ 1260  kubectl describe pods -n bank -o wide
+ 1261  kubectl get pods -n bank -o wide
+ 1262  kubectl descrube pods -n bank -o wide
+ 1263  kubectl describe pods -n bank -o wide
+ 1264  kubectl describe pods -n bank
+ 1265  kubectl describe pods -n bank -o wide
+ 1266  kubectl get pods
+ 1267  sudo -r certs.d/ /etc/docker/
+ 1268  sudo cp -r certs.d/ /etc/docker/
+ 1269  kubectl get secert -n bank
+ 1270  kubectl get secerts -n bank
+ 1271  kubectl get secret -n bank
+ 1272  kubectl delete secret -n bank vervains
+ 1273  kubectl get secret -n bank
+ 1274  kubectl delete secret -n bank laxnesses
+ 1275  kubectl get secret -n bank
+ 1276  kubectl delete secret -n bank hydroceles
+ 1277  kubectl delete namespace bank
+ 1278  kubectl delete clusterrolebindings bank-binding-3
+ 1279  kubectl delete namespace bank
+ 1280  kubectl ge
+ 1281  kubectl delete secret -n bank minho-secret
+ 1282  kubectl get secret
+ 1283  kubectl delete secret -n bank minho
+ 1284  kubectl delete secret minho
+ 1285  kubectl get secret
+ 1286  kubectl get secret -n bank
+ 1287  kubectl get pods -n bank
+ 1288  kubectl describe pods
+ 1289  kubectl describe pods -n bank
+ 1290  kubectl get services
+ 1291  kubectl describe pods -n bank
+ 1292  ls -al
+ 1293  git add .
+ 1294  git rm -cached replication-app/TEST-main
+ 1295  git rm --cached replication-app/TEST-main
+ 1296  git rm -cached replication-app/TEST-main
+ 1297  git add .
+ 1298  git commit -m 'add repliaction app'
+ 1299  git push origin master 
+ 1300  git pull origin master 
+ 1301  git add .
+ 1302  git commit -m 'delete replication app'
+ 1303  git push origin master 
+ 1304  git add .
+ 1305  git add -h
+ 1306  git add .
+ 1307  git commit -m 'add repliaction app'
+ 1308  git push origin master 
+ 1309  git add .
+ 1310  git commit -m 'add repliaction app'
+ 1311  git push origin master 
+ 1312  git commit -m 'add repliaction app'
+ 1313  git add .
+ 1314  git commit -m 'add repliaction app'
+ 1315  git push origin master 
+ 1316  clear
+ 1317  ls
+ 1318  cd replication-app/
+ 1319  ls
+ 1320  history
+ 1321  ls
+ 1322  cd TEST-main/
+ 1323  code .
+ 1324  cd replication-app-latest/
+ 1325  ls -al
+ 1326  rm -rf .git
+ 1327  cd ..
+ 1328  ls
+ 1329  cd backup-replication/
+ 1330  ls
+ 1331  rm -rf ./*/.git
+ 1332  cd replication-app-20.07.2
+ 1333  cd replication-app-20.07.20
+ 1334  ls
+ 1335  ls -al
+ 1336  cd ..
+ 1337  code .
+ 1338  cd ~/deploy-test-apps/shop/
+ 1339  br2k init
+ 1340  cd ,,
+ 1341  cd ..
+ 1342  ls
+ 1343  cd deploy-test-apps/
+ 1344  ls
+ 1345  cd supermarket/
+ 1346  br2k init
+ 1347  node migrations/
+ 1348  ls
+ 1349  npm run start
+ 1350  sudo apt install etcd
+ 1351  npm run start
+ 1352  ls
+ 1353  etcdctl get 
+ 1354  etcdctl get all
+ 1355  etcdctl get --prefix=true
+ 1356  etcdctl get --prefix=true *
+ 1357  etcdctl get *
+ 1358  etcdctl 
+ 1359  etcdctl get -h
+ 1360  etcdctl get --prefix=true
+ 1361  etcdctl get --prefix=true ""
+ 1362  etcdctl get -prefix=true 
+ 1363  etcdctl get "" --prefix=true 
+ 1364  ls
+ 1365  cat context.yaml 
+ 1366  br2k set-context -f ./context.yaml 
+ 1367  br2k list-context
+ 1368  ls
+ 1369  nano specific-document-example/service-info.yaml 
+ 1370  ls
+ 1371  nano util/docker/Dockerfile 
+ 1372  node -v
+ 1373  nano util/docker/Dockerfile 
+ 1374  ls
+ 1375  cat context.yaml 
+ 1376  nano util/docker/Dockerfile 
+ 1377  ls
+ 1378  docker build -h
+ 1379  nano .dockerignore
+ 1380  ls
+ 1381  br2k cur-context
+ 1382  br2k cur-context -h
+ 1383  br2k cur-context -s
+ 1384  br2k cur-context -s  -r
+ 1385  ls
+ 1386  cat specific-document-example/registry-auth.yaml 
+ 1387  cd ..
+ 1388  cd fishing/
+ 1389  ls
+ 1390  br2k add-image-registry -f specific-document-example/registry-auth.yaml 
+ 1391  cat specific-document-example/service-
+ 1392  cat specific-document-example/service-registry-auth.yaml 
+ 1393  br2k add-service-reigstry -f specific-document-example/service-registry-auth.yaml 
+ 1394  br2k add-service-registry -f specific-document-example/service-registry-auth.yaml 
+ 1395  br2k cur-context -h
+ 1396  br2k cur-context -s -r
+ 1397  nano specific-document-example/service-info.yaml 
+ 1398  br2k build -n fishing
+ 1399  ls
+ 1400  nano Dockerfile 
+ 1401  br2k build -n fishing
+ 1402  ls
+ 1403  br2k build -n fishing
+ 1404  br2k list
+ 1405  br2k login-registry -p pslab
+ 1406  cat util/k8s/contexts.json 
+ 1407  br2k add-image-registry -f specific-document-example/registry-auth.yaml 
+ 1408  cat util/k8s/contexts.json 
+ 1409  br2k add-image-registry -f specific-document-example/registry-auth.yaml 
+ 1410  cat util/k8s/contexts.json 
+ 1411  br2k login-registry -p pslab
+ 1412  br2k list
+ 1413  br2k push -i fishing -p k8s
+ 1414  br2k
+ 1415  br2k list
+ 1416  ls
+ 1417* br2k build 
+ 1418  br2k list -h
+ 1419  ls
+ 1420  nano util/docker/images.json 
+ 1421  history
+ 1422* br2k push -i -
+ 1423  history
+ 1424  br2k push -i fishing -p k8s
+ 1425  nano util/docker/images.json 
+ 1426  br2k push -i fishing -p k8s
+ 1427  docker images
+ 1428  docker push  192.168.0.111/k8s/
+ 1429  docker push  192.168.0.111/k8s/fishing
+ 1430  ls
+ 1431  nano Dockerfile 
+ 1432  node -v
+ 1433  nano Dockerfile 
+ 1434  docker images
+ 1435  docke rmi -f 61eedab5def7 31101aa1574f 
+ 1436  docker rmi -f 61eedab5def7
+ 1437  docker images
+ 1438  ls
+ 1439  nano util/docker/images.json 
+ 1440  cd ..
+ 1441  cd fishing/
+ 1442  ls
+ 1443  docker build -h
+ 1444  br2k -h
+ 1445  br2k build -h
+ 1446  br2k build -n fishing
+ 1447  nano Dockerfile 
+ 1448  br2k build -n fishing
+ 1449  docker ps
+ 1450  docker images
+ 1451  docker push 192.168.0.111/k8s/minho-server
+ 1452  br2k build -n fishing
+ 1453  docker images
+ 1454  docker rmi df3bd7dea1a8 37a6bc26376d ff6257b18571 31101aa1574f 31101aa1574f
+ 1455  docker rmi -f df3bd7dea1a8 37a6bc26376d ff6257b18571 31101aa1574f 31101aa1574f
+ 1456  docker images
+ 1457  docker rm -f  730dd80af4e5
+ 1458  docker rm -f 730dd80af4e5
+ 1459  docker images
+ 1460  docker rmi -f 730dd80af4e5
+ 1461  docker images
+ 1462  br2k list
+ 1463  br2k push -h
+ 1464  br2k push -i fishing -p k8s
+ 1465  br2k list
+ 1466  br2k cur-context -s
+ 1467  br2k cur-context -s -r
+ 1468  br2k set-secret -p pslab
+ 1469  br2k cur-context -s -r
+ 1470  nano server/main.js 
+ 1471  cat specific-document-example/service-info.yaml 
+ 1472  br2k register -f specific-document-example/service-info.yaml -p 1234
+ 1473  br2k view-service
+ 1474  br2k spray -f
+ 1475  br2k spray -h
+ 1476  br2k list
+ 1477  br2k secret
+ 1478  br2k cur-context -s
+ 1479  br2k spray -i 192.168.0.111/k8s/fishing -r 5 -s endleaf -n fishing-app
+ 1480  br2k spray -i 192.168.0.111/k8s/fishing -r 5 -s
+ 1481  br2k spray -i 192.168.0.111/k8s/fishing -r 5 -s endleaf
+ 1482  ls
+ 1483  nano test.json 
+ 1484* br2k spray
+ 1485  rm -rf test.json 
+ 1486  ls
+ 1487  history
+ 1488  br2k state
+ 1489  br2k -h
+ 1490  br2k view-service
+ 1491  br2k -h
+ 1492  br2k stop -h
+ 1493  br2k stop
+ 1494  br2k spray -i 192.168.0.111/k8s/fishing -r 5 -s endleaf
+ 1495  br2k stop
+ 1496  br2k spray -i 192.168.0.111/k8s/fishing -r 5 -s endleaf
+ 1497  br2k view-service
+ 1498  br2k view-service -f ./
+ 1499  br2k view-service -f ./context.json
+ 1500  ls
+ 1501  nano context.json 
+ 1502  br2k view-service -f ./context.json
+ 1503  br2k view-service -f ./context
+ 1504  br2k view-service -f ./context.json
+ 1505  npm i json-stable-stringify
+ 1506  br2k view-service -f ./context.json
+ 1507  br2k view-service
+ 1508  br2k stop
+ 1509  br2k build -h
+ 1510  br2k build -n fishing
+ 1511  br2k build -n fishing2
+ 1512  br2k list
+ 1513  br2k push -h
+ 1514  br2k push -i fishing2 -p k8s 
+ 1515  br2k list
+ 1516  history
+ 1517  list
+ 1518  br2k list
+ 1519  history
+ 1520  br2k spary -i 192.168.0.111/k8s/fishing2 -r 5 -s endleaf
+ 1521  br2k spary -h
+ 1522  br2k spray -i 192.168.0.111/k8s/fishing2 -r 5 -s endleaf
+ 1523  history >> command.history
