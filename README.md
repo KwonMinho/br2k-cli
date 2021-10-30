@@ -17,6 +17,7 @@
 - docker 19.03
 
 <br/>
+
 ## 실행 조건
 - docker(HOST PC used br2k)
 - context-verifier-server run
@@ -24,6 +25,7 @@
 - labeling k8s work-node
 
 <br/>
+
 ## 설치
 ```
 git clone PROJECT or npm i br2k-truffle
@@ -31,6 +33,7 @@ npm link(package.json의 bin에 의해서 전역 모듈)
 ```
 
 <br/>
+
 ## Fast starting
 
 
@@ -58,12 +61,13 @@ $ br2k spray -i IMAGE_NAME -r REPLICAS -s SECRET(when step.13) -n APP_NAME
 $ br2k state && br2k view-service
 ```
 
-
 <br/>
+
 ## 구현 및 관리 메모 사항
 - 쿠버네티스 라인 인터페이스 모듈 버전 고정(kubernetes-client@7.0.1)-> 변경 시에 에러 발생 가능성 있음.
 
 <br/>
+
 ## 쿠버네티스 관리자가 `context`(유저가 사용하는 리소스 명세파일) 생성 절차
 
 
@@ -90,6 +94,7 @@ $ br2k state && br2k view-service
 
 
 <br/>
+
 ## 폴더 구조 메모
 
 
