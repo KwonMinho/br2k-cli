@@ -1,7 +1,7 @@
 {
-  "name": "br2k-truffle",
-  "version": "1.0.6",
-  "description": "",
+  "name": "br2k-cli",
+  "version": "1.0.7",
+  "description": "A framework for the robust execution of blockchain application services",
   "main": "./lib/app.js",
   "bin": {
     "br2k": "bin/br2k.js"
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "kownminho <alsgh458@gmail.com>",
+  "author": "minho.kwon <alsgh458@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@kubernetes/client-node": "^0.13.0",
