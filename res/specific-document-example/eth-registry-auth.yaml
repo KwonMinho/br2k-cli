@@ -1,2 +1,3 @@
+type: ethereum
 endpoint: 'ws://203.250.77.150:8546'
 account: '0x2ff21a68a27137fa13a20e72066e9a2c8fe339bd'

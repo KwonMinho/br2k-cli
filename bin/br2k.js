@@ -179,7 +179,7 @@ program.command(chalk.greenBright('[service-registry]'))
 program
     .command('register') 
     .option('-f, --file [file path]', chalk.redBright('[required] ') +'the path to the Service file')
-    .option('-p, --password [password]', chalk.redBright('[required] ') +'register account password')
+    .option('-p, --password [eth-option] register account password')
     .description('register service info in blockchain service registry')
     .action((args)=> {
         registryCommand("register", args);
@@ -190,7 +190,7 @@ program
     .option('-f, --file [filePath, fileType: json]', 'file path to save imported service info')
     .description('view service information registered in service registry')
     .action(async (args)=> {
-        await registryCommand("syncReplicas", args);
+        //await registryCommand("syncReplicas", args);
         registryCommand("view", args);
     });
 program.command('             ') 
