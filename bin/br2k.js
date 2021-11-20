@@ -190,7 +190,7 @@ program
     .option('-f, --file [filePath, fileType: json]', 'file path to save imported service info')
     .description('view service information registered in service registry')
     .action(async (args)=> {
-        //await registryCommand("syncReplicas", args);
+        await registryCommand("syncReplicas", args);
         registryCommand("view", args);
     });
 program.command('             ') 
