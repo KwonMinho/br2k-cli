@@ -1,6 +1,6 @@
 {
   "name": "br2k-cli",
-  "version": "1.1.5",
+  "version": "1.1.7",
   "description": "A framework for the robust execution of blockchain application services",
   "main": "./lib/app.js",
   "bin": {
