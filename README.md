@@ -3,10 +3,8 @@
 <img alt="br2k-app with br2k" src="./assets/main.png"  align="center"/>
 
 
-https://user-images.githubusercontent.com/36630283/146651549-58e8dca9-b93c-4d19-9673-c2bf1e5c38f9.mp4
-
-https://user-images.githubusercontent.com/36630283/146651546-635f066b-abf2-4318-99a2-21a6cec81a08.mp4
-
+![cli-flow](https://user-images.githubusercontent.com/36630283/146652394-40737783-6ce9-4440-aa92-3ef4b76272a0.gif)
+![results](https://user-images.githubusercontent.com/36630283/146652396-c7a6290f-3af2-4d51-b1f4-6f430efd14ed.gif)
 
 
 
