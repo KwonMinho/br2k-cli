@@ -2,8 +2,7 @@
 
 <img alt="br2k-app with br2k" src="./assets/main.png"  align="center"/>
 
-<iframe width="640" height="360" src="./assets/cause.wmv"  
- frameborder="0" allow="autoplay;" allowfullscreen></iframe>  
+<iframe width="640" height="360" src="./assets/cause.wmv" frameborder="0" allow="autoplay;" allowfullscreen></iframe>  
 
 
 ## modify()
