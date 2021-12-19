@@ -7,6 +7,28 @@
 ![results](https://user-images.githubusercontent.com/36630283/146652396-c7a6290f-3af2-4d51-b1f4-6f430efd14ed.gif)
 
 
+```
+.
+├── app.js
+├── bin
+│   └── www
+├── package.json
+├── public
+│   ├── images
+│   ├── javascripts
+│   └── stylesheets
+│       └── style.css
+├── routes
+│   ├── index.js
+│   └── users.js
+└── views
+    ├── error.pug
+    ├── index.pug
+    └── layout.pug
+
+7 directories, 9 files
+```
+
 
 ## modify()
 -[2020.12.03] change k8s client: kubernetes-client(3rd party module) => @kubernetes/client-node(officially library)
