@@ -1,4 +1,4 @@
-<img alt="br2k-cli-logo" src="./assets/br2k-cli-logo.png">
+<img alt="br2k-cli-logo" src="./assets/br2k-cli-logo.png" width=200% height=200%>
 
 # About
 
