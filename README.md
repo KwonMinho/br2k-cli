@@ -25,24 +25,40 @@ The generated br2k-project has the following directory structure
 
 ```
 .
-├── app.js
-├── bin
-│   └── www
+├── contracts
+│   └── Migrations.sol
+├── migrations
+│   └── 1_initial_migration.js
+├── node_modules
+│   └── br2k-was module
+├── server
+├── specific-documents-example
+│   ├── add-service-example.yaml
+│   ├── context-ask.yaml
+│   ├── context.yaml
+│   ├── eth-registry-auth.yaml
+│   ├── klaytn-registry-auth.yaml
+│   ├── registry-auth.yaml
+│   └── service-info.yaml
+├── test
+├── util
+│   └── docker
+│   │   └── images.json
+│   ├── k8s
+│   │   ├── command
+│   │   ├── example
+│   │   ├── example
+│   │   └── contexts.json
+│   └── registry
+│       └── ServiceRegistry.json
+├── .br2k.json
+├── .dockerignore
+├── Dockerfile
+├── package-lock.json
 ├── package.json
-├── public
-│   ├── images
-│   ├── javascripts
-│   └── stylesheets
-│       └── style.css
-├── routes
-│   ├── index.js
-│   └── users.js
-└── views
-    ├── error.pug
-    ├── index.pug
-    └── layout.pug
+└── truffle-config.js
 
-7 directories, 9 files
+10 directories, 18 files
 ```
 
 <br/>
@@ -53,7 +69,6 @@ The generated br2k-project has the following directory structure
 - Install <a href=https://www.docker.com/>Docker</a>
 - Install <a href=https://trufflesuite.com>Truffle framework</a>
 - Run <a href=#Terms>context-verifier-server </a>
-- [12/04](#Terms)
 - Build k8s cluster (ref. prerequire-br2k-cli)
 
 <br/>
