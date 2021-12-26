@@ -2,6 +2,8 @@
 
 # About
 
+Command Line Interface to quickly apply the br2k technique that supports the robustness of blockchain application services
+
 <img alt="br2k-cli" src="./assets/main.png"  align="center"/>
 
 <br><br>
