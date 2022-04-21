@@ -138,7 +138,7 @@ program
     .command('set-secret') 
     .option('-p, --password [registry password]', chalk.redBright('[required] ')+'password of container registry')
     .option('-n, --secretname [secret name]', 'name of credential')
-    .description('create credential of container registry in the current context of kubernetess')
+    .description('create credential of container registry in the current context of kubernetes')
     .action((args)=> {
         k8sCommand("secret", args);
     });
